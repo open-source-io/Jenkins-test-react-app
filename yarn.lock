@@ -1754,7 +1754,7 @@
   dependencies:
     "defer-to-connect" "^2.0.0"
 
-"@testim/chrome-version@^1.1.2":
+"@testim/chrome-version@^1.0.7":
   "integrity" "sha512-1c4ZOETSRpI0iBfIFUqU4KqwBAB2lHUAlBjZz/YqOHqwM9dTTzjV6Km0ZkiEiSCx/tLr1BtESIKyWWMww+RUqw=="
   "resolved" "https://registry.npmjs.org/@testim/chrome-version/-/chrome-version-1.1.2.tgz"
   "version" "1.1.2"
@@ -3131,19 +3131,12 @@
   "resolved" "https://registry.npmjs.org/axe-core/-/axe-core-4.3.5.tgz"
   "version" "4.3.5"
 
-"axios@^0.21.1":
+"axios@^0.21.1", "axios@^0.21.2":
   "integrity" "sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg=="
   "resolved" "https://registry.npmjs.org/axios/-/axios-0.21.4.tgz"
   "version" "0.21.4"
   dependencies:
     "follow-redirects" "^1.14.0"
-
-"axios@^0.24.0":
-  "integrity" "sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA=="
-  "resolved" "https://registry.npmjs.org/axios/-/axios-0.24.0.tgz"
-  "version" "0.24.0"
-  dependencies:
-    "follow-redirects" "^1.14.4"
 
 "axobject-query@^2.2.0":
   "integrity" "sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA=="
@@ -4071,13 +4064,13 @@
   "resolved" "https://registry.npmjs.org/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz"
   "version" "1.0.3"
 
-"chromedriver@^97.0.0":
-  "integrity" "sha512-sOAfKCR3WsHvmKedZoWa+3tBVGdPtxq4zKxgKZCoJ2c924olBTW4Bnha6SHl93Yo7+QqsNn6ZpAC0ojhutacAg=="
-  "resolved" "https://registry.npmjs.org/chromedriver/-/chromedriver-97.0.2.tgz"
-  "version" "97.0.2"
+"chromedriver@^96.0.0":
+  "integrity" "sha512-4g6Hn5RHGsbaBmOrJbDlz/hdVPOc22eRsbvoAAMqkZxR2NJCcddHzCw2FAQeW8lX/C7xWVz3nyDsKX3fE9lIIw=="
+  "resolved" "https://registry.npmjs.org/chromedriver/-/chromedriver-96.0.0.tgz"
+  "version" "96.0.0"
   dependencies:
-    "@testim/chrome-version" "^1.1.2"
-    "axios" "^0.24.0"
+    "@testim/chrome-version" "^1.0.7"
+    "axios" "^0.21.2"
     "del" "^6.0.0"
     "extract-zip" "^2.0.1"
     "https-proxy-agent" "^5.0.0"
@@ -6424,7 +6417,7 @@
     "inherits" "^2.0.3"
     "readable-stream" "^2.3.6"
 
-"follow-redirects@^1.0.0", "follow-redirects@^1.14.0", "follow-redirects@^1.14.4":
+"follow-redirects@^1.0.0", "follow-redirects@^1.14.0":
   "integrity" "sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ=="
   "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.7.tgz"
   "version" "1.14.7"
