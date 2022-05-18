@@ -36,9 +36,12 @@
   "scripts": {
     "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
+    "build-window": "CI=false react-scripts build",
     "test": "react-scripts test  --watchAll=false --reporters='jest-stare' --testResultsProcessor='jest-stare'",
+    "test-window": "CI=true react-scripts test  --watchAll=false --reporters='jest-stare' --testResultsProcessor='jest-stare'",
     "eject": "react-scripts eject",
     "e2e": "start-server-and-test start http://localhost:3000 'wdio run wdio.conf.js'",
+    "e2e": "CI=true start-server-and-test start http://localhost:3000 'wdio run wdio.conf.js'",
     "report": "node ./e2e/make-pdf.js"
   },
   "eslintConfig": {
